@@ -1,0 +1,37 @@
+#h2-externo { /* Aqui seleciona o lugar [tag] que deseja personalizar */
+
+    color: yellow;  /* O que deseja fazer: como quer que seja */
+    background-color: black;    /* BackGround vai personalizar algo por tras */
+
+}
+
+h2 {
+    color: green;
+}
+
+h1 {
+
+    opacity: 0.5;
+    background-image: url("imagens/img_arvore.jpg");    /* Personaliza uma imagem por de traz da [tag] que eu selecionei, no caso [h1] */
+
+}
+
+body { /* Seleciona todo o corpo da pagina, tudo digitado aqui sera aplicado a todas as tag e tudo mais que estiver em body */
+
+    background-image: url("Imagens/imagem.jpg");
+
+    background-image: url("Imagens/gradiente.jpg");
+
+    /* background-repeat: repeat-x; */  /* Deixa a imagem somente no eixo X da pagina  [horizontal] */
+    /* background-repeat: repeat-y; */  /* Deixa a imagem somente no eixo Y da pagina [vertical] */
+    background-repeat: no-repeat;       /* no-repeat faz a imagem ficar em seu tamanho original e por padrao no canto esquerdo superior */
+
+    background-position: left top;      /* Aqui definimos em qual lugar da pagina queremos a imagem ou qualquer outra coisa que estaja personalizando */
+    background-position: left bottom;   /* Tem um mapa da pagina WEB na ultima aula */
+
+    background-image: url("imagens/img_arvore.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed ; /* Fixa a imagem, ao rolar o 'mouse' a imagem desce junto */
+
+
+}

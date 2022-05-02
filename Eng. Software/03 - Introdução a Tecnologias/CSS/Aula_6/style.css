@@ -1,0 +1,49 @@
+p {
+    color: white;
+    background-color: blue;
+    width: 30%;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    background-color: red;
+    width: 60%;
+    display: inline-block;
+}
+
+#id1 {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+
+    overflow: hidden;
+}
+
+#id2 {
+    background-color: coral;
+    width: 200px;
+    height: 500px;
+    border: 1px solid;
+
+    overflow: scroll;
+}
+
+#id3 {
+    background-color: coral;
+    width: 200px;
+    height: 400px; /* A barra desaparece quando o conteudo é menor que o determinado */
+    border: 1px solid;
+
+    overflow: auto;
+}
+
+#id4 {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+
+    overflow: visible;
+}

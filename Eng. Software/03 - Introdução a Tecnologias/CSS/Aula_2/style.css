@@ -1,0 +1,55 @@
+h1 {
+    border-style:dotted;
+}
+
+h2 {
+    border-style:solid;
+}
+
+h3 {
+    border-style:dotted dashed solid double;
+}
+
+h4 {
+    border-top-style: double;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: double;
+}
+
+#p1 {
+    border-style:dotted;
+    border-color: red green blue yellow;
+    border-width: 10px;
+}
+
+#p2 {
+    border-style: groove;
+    border-color: red green blue yellow;
+    border-width: 10px 20px;
+}
+
+#p3 {
+    border-style: double;
+    border-color: violet;
+    border-width: 30px;
+}
+
+#teste {
+    border: 10px groove red;
+    border-radius: 10px;
+}
+/* 
+#cabecalho {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    border: 30px groove black;
+}
+
+.cidade {
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+} */

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 940px;
+    text-align: center;
+    margin: auto;
+}
+
+#logoSVG {
+    text-align: left;
+    margin-left: 0px;
+}
+
+#figure-1 {
+    border: 1px solid lightgreen;
+    width: 550px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.100);
+}
+
+#figure-2 {
+    border: 1px solid lightgreen;
+    width: 275px;
+    margin: 30px;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.100);
+
+    float: right;
+}
+
+#txt-historia {
+    text-align: left;
+}
+
+#lista {
+    text-align: left;
+}
+
+#endereco1{
+    font-style: italic;
+}
+
+.img {
+    width: 100%;
+}
+
+.text {
+    text-align: justify;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.legenda {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.title-2 {
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+
+.title{
+    background-color: rgba(173, 216, 230, 0.507);
+    padding: 10px;
+    text-align: left;
+}
+.sub-title{
+    text-align: left;
+}
+.atendimento{
+    text-align: left;
+    color:rgba(0, 0, 0, 0.658);
+    font-size: 15px;
+}
+.endereco{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(0, 0, 0, 0.658);
+    margin-left: 45px;
+}

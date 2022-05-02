@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!-- Cria o formulario -->
+        <fieldset style="width: 200px;">
+            <!-- Cria um 'margem' -->
+            <legend>Dados pessoais</legend> <br> <!-- Cria a legenda da 'margem' -->
+            <label for="nome">Nome:</label> <br> <!-- Titulo -->
+            <input type="text" id="nome" name="nome"> <br> <!-- Cria a caixa de texto -->
+
+            <label for="sobrenome">Sobrenome:</label> <br>
+            <input type="text" id="sobrenome" name="sobrenome"> <br>
+
+            <label for="lbl_estado">Informe seu estado:</label> <br>
+            <select name="estado" id="estado">
+                <!-- Cria uma lista -->
+                <option value="AC">Acre</option> <!-- Cria as opçoes da lista -->
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+            </select>
+        </fieldset> <br>
+
+        <label for="lbl_informacao">Nos diga, resumindamente, um pouco sobre você:</label> <br>
+        <textarea name="informacao" id="informcao" cols="40" rows="10"
+            maxlength="400">Insira aqui seu texto...</textarea> <br>
+        <!-- Cria uma area de texto com linha, coluna e caracteres definidos -->
+
+        <label for="btn_salvar"></label><br>
+        <button type="button" id="salvar" name="salvar">Salvar</button> <br><br> <!-- Cria um botão clicavel -->
+    </form>
+</body>
+
+</html>

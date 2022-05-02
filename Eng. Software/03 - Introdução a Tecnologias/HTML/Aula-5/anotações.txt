@@ -1,0 +1,5 @@
+<label for=""> <!-- for = identificador -->
+
+</label> <!-- Rótulo / legenda -->
+
+<input type="text"> <!-- input = capturar dados \\ type = Define o atributo -->

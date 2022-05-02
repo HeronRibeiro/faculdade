@@ -1,0 +1,55 @@
+.termo_ingles {
+
+    background-color: lightblue;
+    font-weight: bold;
+
+}
+
+.conteiner {
+
+    border: 3px solid red;
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+
+}
+
+#h2 {
+
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+
+}
+
+#p {
+
+    text-align: center;
+    border: 1px solid blue;
+    background-color: lightblue;
+    margin: 25px 50px 75px 100px; /* Contra o espaço da 'borda' pra fora */ 
+
+}
+
+#h3 {
+    text-align: center;
+    border: 3px solid green;
+    padding: 100px; /* Controla o espaço entre o conteudo e a borda */
+    width: 300px; /* controla a largura */
+    height: 150px; /* controla a altura */
+    margin: auto;
+    
+}
+
+#h1 {
+
+    width: 200px;
+    border: 30px solid coral;
+    padding: 10px;
+    background-color: lightgreen;
+
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+
+}
